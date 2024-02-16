@@ -38,6 +38,10 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* A elements that don't have a class get default styles */
@@ -78,16 +82,9 @@ select {
 
 /* GENERAL */
 
-.student-info-container {
-  max-width: 60rem;
-  padding: 8rem;
-  margin-inline: auto;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+.message-container {
+  text-align: center;
+  font-size: 10rem;
 }
 
-.student-info h2 {
-  font-weight: 600;
 
-}
